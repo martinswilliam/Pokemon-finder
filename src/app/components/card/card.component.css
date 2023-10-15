@@ -6,28 +6,27 @@
 }
 .container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 
-  border: solid black 2px;
+
   margin-top: 15px;
   padding: 10px;
+  border: solid rgb(212, 208, 2);
+  border-radius: 20px;
 
-  width: 800px;
+  width: 559px;
 
   background-image: url(./img/pikachu.jpg) ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
-.img-background{
-width: 200px;
-height: 200px;
-}
+
 
 .card {
-  border: 1px black solid;
+
   width: 250px;
   height: 350px;
 
@@ -48,6 +47,8 @@ height: 200px;
 }
 
 .card__body{
+  background-image: url(./img/area.png);
+  background-size: cover;
   background-color: #616161;
   width: 90%;
   margin-left: auto;
@@ -62,7 +63,9 @@ height: 200px;
   justify-content: center;
   align-items: center;
 
+
 }
+
 
 .card__stats__type{
   color: black;
@@ -78,5 +81,13 @@ height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+
+
+.search-input {
+  margin: 7px;
+  border-radius: 2px;
 
 }

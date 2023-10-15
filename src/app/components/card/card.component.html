@@ -22,8 +22,10 @@
       {{ t.type.name | uppercase | lowercase }}
     </span>
   </div>
-  <input type="text" (input)="getPokemon($any($event.target).value)" >
+
+  <input class="search-input" type="text" (input)="getPokemon($any($event.target).value)" >
 
 </div>
+
 </div>
 </div>
