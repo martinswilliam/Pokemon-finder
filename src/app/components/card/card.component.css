@@ -26,9 +26,11 @@
 
 
 .card {
-
+  background-image: url(./img/gradient-blue-white.jpg);
+  background-size: cover;
   width: 250px;
   height: 350px;
+  border: solid 1px white;
 
   display: flex;
   flex-direction: column;
@@ -37,12 +39,16 @@
 }
 
 .card__title{
+
+
   margin-left: auto;
   margin-right: auto;
 }
 
 .card__title > h3{
   color: white;
+
+  margin: 4px;
 
 }
 
@@ -51,6 +57,7 @@
   background-size: cover;
   background-color: #616161;
   width: 90%;
+  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
   height: 70%;
@@ -87,7 +94,10 @@
 
 
 .search-input {
-  margin: 7px;
-  border-radius: 2px;
 
+  border-radius: 2px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  border-radius: 6px;
 }

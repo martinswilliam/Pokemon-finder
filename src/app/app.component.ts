@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
   justify-content: center;
   ">Pokemon Finder</h1>
   <app-card></app-card>
+
+
   <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
