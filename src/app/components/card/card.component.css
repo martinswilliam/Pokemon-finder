@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Rowdies:wght@300&display=swap');
+
 .container-total{
   display: flex;
   flex-direction: row;
@@ -41,11 +43,13 @@
 .card__title{
 
 
+
   margin-left: auto;
   margin-right: auto;
 }
 
 .card__title > h3{
+
   color: white;
 
   margin: 4px;

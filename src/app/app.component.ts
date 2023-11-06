@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <h1 style="
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  ">Pokemon Finder</h1>
+ <app-card-title></app-card-title>
   <app-card></app-card>
 
 

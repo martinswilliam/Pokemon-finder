@@ -6,17 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { FormsModule } from '@angular/forms';
+import { CardTitleComponent } from './components/card-title/card-title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    CardTitleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule
+
 
   ],
   providers: [],
